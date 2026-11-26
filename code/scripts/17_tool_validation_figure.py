@@ -6,7 +6,7 @@ INK, INK2, GRID = "#0b0b0b", "#52514e", "#e4e3df"
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 7.5, "axes.spines.top": False, "axes.spines.right": False,
                      "axes.grid": True, "grid.color": GRID, "grid.linewidth": 0.5, "axes.axisbelow": True,
                      "axes.edgecolor": INK2, "xtick.color": INK2, "ytick.color": INK2, "legend.frameon": False,
-                     "savefig.dpi": 300, "savefig.bbox": "tight"})
+                     "savefig.dpi": 300, "pdf.fonttype": 42, "ps.fonttype": 42, "savefig.bbox": "tight"})
 t = pd.read_csv("results/strengthen/hiesd_tool_validation.csv"); f = pd.read_csv("results/strengthen/hiesd_fewlabel_validation.csv")
 series = [("no adaptation", t[t["mode"] == "no adaptation"], "#5b6fd6", "D"),
           ("per-slide standardisation", t[t["mode"] == "per-slide standardisation"], "#b8b6b0", "s"),
