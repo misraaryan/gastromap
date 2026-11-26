@@ -1,0 +1,13 @@
+{
+  "encoder": "UNI (MahmoodLab/uni, frozen)",
+  "trained_on": "HMU-GC-HE-30K, TUM vs NOR, all 7,774 patches",
+  "classifier": "10 logistic regressions, C=0.001, bootstrap over 60-tile slide-blocks",
+  "adaptation": "per-slide target standardisation (validated: Table 3)",
+  "knn_threshold": 0.6024408936500549,
+  "unfamiliar_share_reference": {
+    "HMU_heldout": 0.01,
+    "GasHisSDB": 0.4742
+  },
+  "workload_curve_source": "HMU->GasHisSDB, target-standardised UNI probes, 3 seeds",
+  "note": "Research prototype. Not a medical device."
+}

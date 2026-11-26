@@ -1,0 +1,8 @@
+File: TCGA-HF-A5NB-01Z-00-DX1.CA67064B-3281-4144-A2A2-E0BC43E6F8D6.svs   tiles analysed: 4726   time: 417.8 s
+Adaptation: hospital calibration 'TCGA-HF_3slides'
+Estimated tumour fraction of tissue: 89.3% (confident tiles only: 95.8%); approximate, tends towards the middle
+Referred for pathologist review: 945 tiles (20%)
+Expected balanced accuracy on the remaining tiles: 0.90 ± 0.01 (measured at a new hospital: HMU -> GasHisSDB)
+Unfamiliar tiles: 39% (reference: training-like slides 1%, other hospital 47%)
+⚠ This slide looks unlike the training data. Treat all outputs with extra caution.
+Research prototype - not for clinical diagnosis.

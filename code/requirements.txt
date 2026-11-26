@@ -1,0 +1,12 @@
+torch>=2.2
+torchvision>=0.17
+timm>=1.0
+transformers>=4.40      # Phikon / Phikon-v2 encoders
+huggingface_hub>=0.23   # UNI (gated) via timm hf-hub
+numpy
+pandas
+scikit-learn
+pillow
+matplotlib
+gradio>=4.0             # the tool
+openslide-python        # optional: whole-slide images in the tool (also needs the openslide system library)
