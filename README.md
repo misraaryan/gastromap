@@ -3,7 +3,7 @@
 Code and results for the paper:
 
 **Label-Free Feature Standardisation Enables Reliable Uncertainty-Based Referral Under Domain Shift in Computational Pathology**
-Aryan Misra, Department of Biotechnology, Delhi Technological University (2026).
+Aryan Misra and Yasha Hasija, Department of Biotechnology, Delhi Technological University (2026).
 
 The study trains gastric cancer patch classifiers (tumour vs normal mucosa) on HMU-GC-HE-30K, using leakage-controlled, slide-grouped splits. It then tests them without retraining on two other hospitals: GasHisSDB, and HiESD (14 whole slides with pathologist masks and real slide IDs). Three models are compared: a fine-tuned ResNet50 and two frozen pathology foundation models (UNI, Phikon) with a bootstrap linear-probe ensemble. Uncertainty-based referral is evaluated at a fixed threshold, with and without label-free standardisation of the target features (AdaBN for the CNN). GastroMap packages the result as a local whole-slide tool.
 
